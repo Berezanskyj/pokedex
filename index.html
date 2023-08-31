@@ -14,20 +14,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Krona+One&family=Montserrat:wght@600&family=Roboto:ital,wght@0,100;0,500;0,700;1,300&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
 </head>
 <body>
-    
+    <!-- Conteudo que tera na paigina -->
     <section class="content">
+        <!-- Titulo -->
         <h1>Pokedex</h1>
 
+        <!-- Lista ordenada de Pokemons -->
         <ol class="pokemons">
-            <li>Bulbasaur</li>
-            <li>Ivysaur</li>
-            <li>Venusaur</li>
-            <li>Charmander</li>
-            <li>Charmeleon</li>
-            <li>Charlizard</li>
+            <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">Bulbasaur</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type">grass</li>
+                        <li class="type">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+
+                </div>
+            </li>
 
         </ol>
     </section>
