@@ -1,0 +1,45 @@
+* {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #46D1B1;
+}
+
+.content{
+    width: 99vw;
+    height: 89vh;
+    /* display: flex; */
+    padding: 1rem 2rem 0rem 0rem;
+    background-color: #fff;
+    margin-top: 17rem;
+    border-radius: 2rem;
+}
+
+
+
+@media screen and (min-width: 992px){
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        max-width: 69.875rem;
+        max-height: 34.875rem;
+        margin-top: 150px;
+        margin-left: 96px;
+        /* height: 60vw;
+        padding: 1rem 0rem 0rem 0rem;
+        margin-top: 11.563rem;
+        margin-left: 156px;
+        border-radius: 2rem; */
+    }
+
+
+} 
+    
+

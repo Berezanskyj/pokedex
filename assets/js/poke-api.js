@@ -1,6 +1,3 @@
-
-
-
 const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail){
@@ -36,5 +33,6 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
         .then((detailRequests) => Promise.all(detailRequests)) //esperando todas as requisicoes terminarem
         .then((pokemonsDetails) => pokemonsDetails)
         .catch((error) => console.error(error))
+    
 
 }

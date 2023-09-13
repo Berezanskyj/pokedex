@@ -78,7 +78,9 @@
     background-color: #3F454B;
 } 
 
-
+.pokemons{
+    cursor: pointer;
+}
 
 .pokemon{
     display: flex;

@@ -28,6 +28,10 @@ function loadPokemonItens(offset, limit) {
     })
 }
 
+function detail_page (){
+    window.location.href = "pokemon_details.html"
+}
+
 loadPokemonItens(offset, limit)
 
 loadMoreButton.addEventListener('click', () => {
